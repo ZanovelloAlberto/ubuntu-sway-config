@@ -1,0 +1,6 @@
+[submodule ".sub/dmenu-wayland"]
+	path = sub/dmenu-wayland
+	url = https://github.com/nyyManni/dmenu-wayland.git
+[submodule "sub/ly-dm"]
+	path = sub/ly-dm
+	url = https://github.com/nullgemm/ly.git
