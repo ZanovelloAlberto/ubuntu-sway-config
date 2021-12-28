@@ -6,11 +6,13 @@ my itinerary through the installation and customization of sway on ubuntu
 - [Sway](https://github.com/swaywm/sway) (wm)
 - [dmenu](https://github.com/nyyManni/dmenu-wayland) (programs-launcher)
 
-<hr/>
+
+
+
+
+
 <br/>
-
-
-
+<br/>
 
 ## Reference
 ### Arch
@@ -28,3 +30,8 @@ my itinerary through the installation and customization of sway on ubuntu
 
 ### StackOverflow
 - [exclude from .gitgnore](https://stackoverflow.com/questions/987142)
+- [chain commands after cd](https://stackoverflow.com/questions/1789594)
+
+
+### Git-SCM
+- [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules)

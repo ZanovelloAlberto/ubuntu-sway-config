@@ -1,11 +1,6 @@
 xwayland
 sway
-wayland-client
-cairo
-pango-1.0
-pangocairo-1.0
-xkbcommon
-glib-2.0
-gobject-2.0
 gcc
 make
+meson
+ninja-build
