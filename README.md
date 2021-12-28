@@ -1,5 +1,6 @@
 # ubuntu-sway-config
 
+my itinerary through the installation and customization of my personal computer
 ### [installation of sway](https://wiki.archlinux.org/title/Sway)
 ```sh
 sudo apt install sway xwayland
@@ -17,4 +18,3 @@ sudo cp /etc/sway/config ~/.config/sway/config
 ```
 
 
-my itinerary through the installation and customization of my personal computer
