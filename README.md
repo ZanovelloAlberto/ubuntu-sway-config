@@ -1,20 +1,30 @@
 # ubuntu-sway-config
 
-my itinerary through the installation and customization of ubuntu on my personal computer
-### [installation of sway](https://wiki.archlinux.org/title/Sway)
-```sh
-sudo apt install sway xwayland
-```
-[Sway can be started by adding the following to your shell initialization file or `~/.profile`](https://wiki.archlinux.org/title/Sway#Automatically_on_TTY_login)
+my itinerary through the installation and customization of sway on ubuntu
 
-```bash
-if [ -z $DISPLAY ] && [ "$(tty)" = "/dev/tty1" ]; then
-  exec sway
-fi
-```
-copy default configuration from `/etc/sway/confg`
-```sh
-sudo cp /etc/sway/config ~/.config/sway/config
-```
+- [Ly](https://github.com/nullgemm/ly) (dm)
+- [Sway](https://github.com/swaywm/sway) (wm)
+- [dmenu](https://github.com/nyyManni/dmenu-wayland) (programs-launcher)
+
+<hr/>
+<br/>
 
 
+
+
+## Reference
+### Arch
+- [Wayland](https://wiki.archlinux.org/title/wayland)
+- [Sway](https://wiki.archlinux.org/title/Sway)
+- [dmenu](https://wiki.archlinux.org/title/Dmenu)
+- [DisplayManager](https://wiki.archlinux.org/title/Display_manager)
+
+
+### GitHub
+- [awesome-Wayland](https://github.com/natpen/awesome-wayland)
+- [Ly](https://github.com/nullgemm/ly) 
+- [Sway](https://github.com/swaywm/sway) 
+- [dmenu](https://github.com/nyyManni/dmenu-wayland)
+
+### StackOverflow
+- [exclude from .gitgnore](https://stackoverflow.com/questions/987142)
