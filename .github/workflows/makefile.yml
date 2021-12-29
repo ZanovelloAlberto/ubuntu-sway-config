@@ -14,12 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: configure
-      run: ./configure
-      
-    - name: Install dependencies
+    - name: Build, Install
       run: make
       
-    - name: Run check
+    - name: Clean
       run: make clean
       
