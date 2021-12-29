@@ -12,3 +12,5 @@ libpango1.0-0
 libpangocairo-1.0-0
 libxkbcommon0
 libglib2.0-0
+
+libpam0g-dev
