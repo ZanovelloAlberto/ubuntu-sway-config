@@ -61,6 +61,6 @@ uninstall:
 
 clean:
 	@echo "cleaning"
-	@cd $(SUBLY) && $(MAKE) clean
-	@cd $(SUBDMENU) && rm -r build
+	@cd $(SUBLY) && sudo $(MAKE) clean
+	@cd $(SUBDMENU) && sudo rm -r build
 
