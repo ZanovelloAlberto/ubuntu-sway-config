@@ -8,7 +8,7 @@ ninja-build
 
 libwayland-client0
 libcairo2
-libpango1.0-0
+libpango1.0-dev
 libpangocairo-1.0-0
 libxkbcommon0
 libglib2.0-0
