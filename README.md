@@ -14,7 +14,7 @@ Clone the repository
 git clone --recurse-submodules https://github.com/ZanovelloAlberto/ubuntu-sway-config.git
 ```
 
-Compile and Install
+Build and Install
 ```
 make
 ```
