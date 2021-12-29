@@ -8,13 +8,13 @@ my itinerary through the installation and customization of sway on ubuntu
 <br/>
 <br/>
 
-## Cloning and Compiling
+## Cloning, Compiling and Installing
 Clone the repository
 ```
 git clone --recurse-submodules https://github.com/ZanovelloAlberto/ubuntu-sway-config.git
 ```
 
-Compile && install
+Compile and Install
 ```
 make
 ```
