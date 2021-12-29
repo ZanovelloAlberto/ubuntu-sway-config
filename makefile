@@ -8,12 +8,11 @@ build: install-ly install-dmenu config
 
 # === CONFIG ===
 
-config: ly-config dmenu-config sway-config
+config: ly-config sway-config
 	@echo "replacing config..."
 	@sudo cp init/.profile ~/.profile
 
-dmenu-config: 
-	@sudo cp 
+# dmenu-config: 
 
 ly-config:
 	@sudo cp ly/config.ini /etc/ly/config.ini
