@@ -1,17 +1,24 @@
-NAME = ly
 CD = $(PWD)
 
-install: install-ly install-dmenu 
+
+
+
+build: install-ly install-dmenu autostart-sway
+
+autostart-sway: 
+	@echo "setting up autostart sway..."
+	@sudo cp -r sway/ ~/.config/sway/
+
 install-apt:
-	@echo "install apt dependencies"
-	cat apt-install.txt | xargs sudo apt -y install
+	@echo "install apt dependencies..."
+	@cat apt-install.txt | xargs sudo apt -y install
 
 update-sub:
-	@echo "unpdate sub repo"
+	@echo "unpdate sub repo..."
 	@git submodule update --init --recursive
 
 install-dmenu: update-sub install-apt
-	@echo "installing dmenu"
+	@echo "installing dmenu..."
 	@cd .sub/dmenu-wayland && \
 	mkdir build && \
 	meson build && \
@@ -21,7 +28,7 @@ install-dmenu: update-sub install-apt
 
 
 install-ly: update-sub install-apt
-	@echo "installing ly"
+	@echo "installing ly..."
 	@cd .sub/ly-dm && \
 	sudo make && \
 	sudo make install && \
@@ -31,10 +38,10 @@ install-ly: update-sub install-apt
 
 
 uninstall:
-	@echo "uninstalling"
+	@echo "uninstalling..."
 
 
 clean:
 	@echo "cleaning"
-	@rm -rf $(BIND) $(OBJD) valgrind.log
-	@(cd $(SUBD)/termbox_next && $(MAKE) clean)
+	@cd .sub/ly-dm && $(MAKE) clean
+	@cd .sub/dmenu-wayland && rm -r build
