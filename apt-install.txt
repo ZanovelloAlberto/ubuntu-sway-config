@@ -7,10 +7,11 @@ meson
 ninja-build
 
 libwayland-client0
-libcairo2
+libwayland-dev
+libcairo2-dev
 libpango1.0-dev
 libpangocairo-1.0-0
-libxkbcommon0
-libglib2.0-0
+libxkbcommon-dev
+libglib2.0-dev
 
 libpam0g-dev
