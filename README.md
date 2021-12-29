@@ -5,6 +5,8 @@ my itinerary through the installation and customization of sway on ubuntu
 - [Ly](https://github.com/nullgemm/ly) (dm)
 - [Sway](https://github.com/swaywm/sway) (wm)
 - [dmenu](https://github.com/nyyManni/dmenu-wayland) (programs-launcher)
+<br/>
+<br/>
 
 ## Cloning and Compiling
 Clone the repository
