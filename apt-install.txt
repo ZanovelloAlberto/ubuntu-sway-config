@@ -2,5 +2,8 @@ xwayland
 sway
 gcc
 make
+
 meson
 ninja-build
+
+libpam0g-dev
