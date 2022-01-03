@@ -18,7 +18,7 @@ Build and Install
 make
 ```
 
-## Known ISSUE:
+## Known >>> ISSUE <<<:
 lydm dont get enabled throught the make script... <br/>
 **follow official** [**installation guide**](https://github.com/nullgemm/ly) <br/>
 to make it work correctly
