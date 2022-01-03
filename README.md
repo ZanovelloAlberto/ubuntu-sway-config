@@ -19,8 +19,9 @@ make
 ```
 
 ## Known ISSUE:
-lydm dont get enabled throught the make script...
-[**follow official installation guide**](https://github.com/nullgemm/ly)
+lydm dont get enabled throught the make script... <br/>
+[**follow official installation guide**](https://github.com/nullgemm/ly) <br/>
+to make it work correctly
 
 
 <br/>
