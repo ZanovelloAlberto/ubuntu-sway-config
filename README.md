@@ -4,6 +4,11 @@ installation and customization of sway on ubuntu
 - [Ly](https://github.com/nullgemm/ly) (dm)
 - [Sway](https://github.com/swaywm/sway) (wm)
 - [dmenu](https://github.com/nyyManni/dmenu-wayland) (programs-launcher)
+
+- [grim](https://github.com/emersion/grim)
+- [slurp](https://github.com/emersion/slurp)
+- [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+
 <br/>
 <br/>
 
