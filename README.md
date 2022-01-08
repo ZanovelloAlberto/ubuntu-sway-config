@@ -5,8 +5,8 @@ installation and customization of sway on ubuntu
 - [Sway](https://github.com/swaywm/sway) (wm)
 - [dmenu](https://github.com/nyyManni/dmenu-wayland) (programs-launcher)
 
-- [grim](https://github.com/emersion/grim)
-- [slurp](https://github.com/emersion/slurp)
+- [grim](https://github.com/emersion/grim) (Grab images from screen)
+- [slurp](https://github.com/emersion/slurp) (Select a region screen)
 - [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
 <br/>
